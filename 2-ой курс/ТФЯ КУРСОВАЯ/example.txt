@@ -1,0 +1,24 @@
+(*this is top commentary*)
+
+dim i, j integer
+dim temp_bool boolean
+
+i := 12FF (*should be hex*)
+j := 10 + 2
+
+temp_bool := !true
+
+dim middle_float real
+
+dim j real
+
+middle_float := 1.1e2
+
+(*this is middle commentary*)
+
+if ( i < j )
+    writeln i, j
+
+end
+
+(*this is bottom commentary ( will not even be noticed by lexer )*)
