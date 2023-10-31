@@ -21,4 +21,4 @@ if ( i < j )
 
 end
 
-(*this is bottom commentary ( will not even be noticed by lexer )*)
+(*this is bottom commentary*)

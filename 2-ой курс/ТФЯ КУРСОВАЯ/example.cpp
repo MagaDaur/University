@@ -368,7 +368,7 @@ public:
     {
         fp = fopen(filename, "r");
         if(!fp)
-            throw string("#001 - File ") + filename + " was not found!";
+            throw string("#001 - File ") + filename + " was not found!"; // грубое исключение, но вроде норм.
 
         CS = H;
         clear();
