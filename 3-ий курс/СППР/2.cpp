@@ -3,6 +3,7 @@
 #include <iostream>
 #include <vector>
 #include <numeric>
+#include <ctime>
 
 struct SwapIter { int from; int to; };
 
@@ -86,8 +87,8 @@ int main()
     std::cout << " }\n";
 
     std::cout << "\nЗамены:\n";
-    for(const auto[i, j] : swap_table)
-        std::cout << i + 1 << " <> " << j + 1 << "\n";
+    for(const auto& iter : swap_table)
+        std::cout << iter.from + 1 << " <> " << iter.to + 1 << "\n";
 
     int best_s = f(v, l);
 
