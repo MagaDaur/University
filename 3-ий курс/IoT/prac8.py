@@ -16,7 +16,7 @@ def get_dataframe(file_path):
 
         return dataframe
 
-dataframe = get_dataframe('/Users/student/Downloads/data.json')
+dataframe = get_dataframe('/Users/magomeddaurbekov/Desktop/ВУЗ/3-ий курс/IoT/data.json')
 
 minunte_distribution = sorted(list(set(f'{parser.parse(time).hour:02d}:{parser.parse(time).minute:02d}' for time in dataframe['time'])))
 print(minunte_distribution)

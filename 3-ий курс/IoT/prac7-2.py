@@ -15,8 +15,8 @@ KEEPALIVE = 60 # Время ожидания доставки сообщения
 # Словарь с топиками и собираемыми из них параметрами
 SUB_TOPICS = {
     '/devices/wb-msw-v3_21/controls/CO2': 'co2',
-    '/devices/wb-msw-v3_21/controls/Illuminance': 'illuminance',
-    '/devices/wb-ms_11/controls/Temperature': 'temperature',
+    '/devices/wb-ms-11/controls/Illuminance': 'illuminance',
+    '/devices/wb-m1w2-14/External Sensor 2': 'temperature',
     '/devices/wb-msw-v3_21/controls/Sound Level': 'sound',
     '/devices/wb-map12e_23/controls/Urms L1': 'voltage',
 }

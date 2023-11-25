@@ -1,1 +1,1253 @@
-<data><entry><co2>1565.0</co2><illuminance>331.51</illuminance><temperature>24.23</temperature><sound>65.15</sound><voltage>229.227</voltage><host>24</host><time>2023-11-08 15:17:43.798049</time></entry><entry><co2>1563.0</co2><illuminance>333.65</illuminance><temperature>24.23</temperature><sound>51.54</sound><voltage>229.005</voltage><host>24</host><time>2023-11-08 15:17:49.020006</time></entry><entry><co2>1561.0</co2><illuminance>332.87</illuminance><temperature>24.23</temperature><sound>77.22</sound><voltage>228.979</voltage><host>24</host><time>2023-11-08 15:17:54.243088</time></entry><entry><co2>1559.0</co2><illuminance>333.46</illuminance><temperature>24.24</temperature><sound>64.24</sound><voltage>229.179</voltage><host>24</host><time>2023-11-08 15:18:00.079637</time></entry><entry><co2>1556.0</co2><illuminance>335.6</illuminance><temperature>24.24</temperature><sound>52.7</sound><voltage>229.107</voltage><host>24</host><time>2023-11-08 15:18:06.018108</time></entry><entry><co2>1555.0</co2><illuminance>337.95</illuminance><temperature>24.27</temperature><sound>55.17</sound><voltage>229.107</voltage><host>24</host><time>2023-11-08 15:18:11.651088</time></entry><entry><co2>1552.0</co2><illuminance>339.51</illuminance><temperature>24.27</temperature><sound>50.08</sound><voltage>229.131</voltage><host>24</host><time>2023-11-08 15:18:17.077781</time></entry><entry><co2>1550.0</co2><illuminance>339.51</illuminance><temperature>24.29</temperature><sound>47.67</sound><voltage>229.058</voltage><host>24</host><time>2023-11-08 15:18:22.095379</time></entry><entry><co2>1547.0</co2><illuminance>339.9</illuminance><temperature>24.3</temperature><sound>52.78</sound><voltage>229.06</voltage><host>24</host><time>2023-11-08 15:18:27.317987</time></entry><entry><co2>1542.0</co2><illuminance>339.51</illuminance><temperature>24.3</temperature><sound>50.29</sound><voltage>229.009</voltage><host>24</host><time>2023-11-08 15:18:34.076504</time></entry><entry><co2>1538.0</co2><illuminance>339.12</illuminance><temperature>24.31</temperature><sound>55.76</sound><voltage>228.872</voltage><host>24</host><time>2023-11-08 15:18:39.093681</time></entry><entry><co2>1535.0</co2><illuminance>338.73</illuminance><temperature>24.31</temperature><sound>50.01</sound><voltage>228.879</voltage><host>24</host><time>2023-11-08 15:18:45.237588</time></entry><entry><co2>1532.0</co2><illuminance>334.04</illuminance><temperature>24.33</temperature><sound>48.14</sound><voltage>228.735</voltage><host>24</host><time>2023-11-08 15:18:50.767221</time></entry><entry><co2>1530.0</co2><illuminance>322.92</illuminance><temperature>24.33</temperature><sound>54.62</sound><voltage>228.882</voltage><host>24</host><time>2023-11-08 15:18:56.091741</time></entry><entry><co2>1527.0</co2><illuminance>563.9</illuminance><temperature>24.34</temperature><sound>58.9</sound><voltage>229.097</voltage><host>24</host><time>2023-11-08 15:19:02.030732</time></entry><entry><co2>1523.0</co2><illuminance>320.58</illuminance><temperature>24.37</temperature><sound>59.76</sound><voltage>229.11</voltage><host>24</host><time>2023-11-08 15:19:07.662871</time></entry><entry><co2>1519.0</co2><illuminance>322.92</illuminance><temperature>24.37</temperature><sound>62.75</sound><voltage>229.087</voltage><host>24</host><time>2023-11-08 15:19:13.089790</time></entry><entry><co2>1512.0</co2><illuminance>327.21</illuminance><temperature>24.39</temperature><sound>60.88</sound><voltage>229.171</voltage><host>24</host><time>2023-11-08 15:19:18.722678</time></entry><entry><co2>1508.0</co2><illuminance>330.34</illuminance><temperature>24.39</temperature><sound>68.3</sound><voltage>229.292</voltage><host>24</host><time>2023-11-08 15:19:24.251500</time></entry><entry><co2>1504.0</co2><illuminance>333.65</illuminance><temperature>24.41</temperature><sound>51.24</sound><voltage>229.327</voltage><host>24</host><time>2023-11-08 15:19:29.781136</time></entry><entry><co2>1500.0</co2><illuminance>336.0</illuminance><temperature>24.42</temperature><sound>64.52</sound><voltage>229.291</voltage><host>24</host><time>2023-11-08 15:19:35.413068</time></entry><entry><co2>1496.0</co2><illuminance>332.87</illuminance><temperature>24.44</temperature><sound>60.7</sound><voltage>229.267</voltage><host>24</host><time>2023-11-08 15:19:41.045192</time></entry><entry><co2>1492.0</co2><illuminance>322.53</illuminance><temperature>24.44</temperature><sound>52.13</sound><voltage>229.226</voltage><host>24</host><time>2023-11-08 15:19:46.062403</time></entry><entry><co2>1487.0</co2><illuminance>338.73</illuminance><temperature>24.45</temperature><sound>60.26</sound><voltage>229.066</voltage><host>24</host><time>2023-11-08 15:19:51.182591</time></entry><entry><co2>1483.0</co2><illuminance>338.73</illuminance><temperature>24.45</temperature><sound>56.73</sound><voltage>229.254</voltage><host>24</host><time>2023-11-08 15:19:57.122795</time></entry><entry><co2>1479.0</co2><illuminance>338.73</illuminance><temperature>24.46</temperature><sound>54.17</sound><voltage>229.199</voltage><host>24</host><time>2023-11-08 15:20:03.061018</time></entry><entry><co2>1474.0</co2><illuminance>339.12</illuminance><temperature>24.46</temperature><sound>58.77</sound><voltage>228.992</voltage><host>24</host><time>2023-11-08 15:20:08.283427</time></entry><entry><co2>1470.0</co2><illuminance>339.12</illuminance><temperature>24.48</temperature><sound>57.45</sound><voltage>229.173</voltage><host>24</host><time>2023-11-08 15:20:14.119905</time></entry><entry><co2>1467.0</co2><illuminance>338.73</illuminance><temperature>24.49</temperature><sound>50.85</sound><voltage>229.029</voltage><host>24</host><time>2023-11-08 15:20:20.059185</time></entry><entry><co2>1459.0</co2><illuminance>339.12</illuminance><temperature>24.49</temperature><sound>54.55</sound><voltage>228.949</voltage><host>24</host><time>2023-11-08 15:20:25.691164</time></entry><entry><co2>1456.0</co2><illuminance>338.73</illuminance><temperature>24.51</temperature><sound>53.28</sound><voltage>229.064</voltage><host>24</host><time>2023-11-08 15:20:31.118110</time></entry><entry><co2>1452.0</co2><illuminance>339.12</illuminance><temperature>24.52</temperature><sound>50.14</sound><voltage>228.84</voltage><host>24</host><time>2023-11-08 15:20:36.852826</time></entry><entry><co2>1449.0</co2><illuminance>338.73</illuminance><temperature>24.52</temperature><sound>57.72</sound><voltage>228.9</voltage><host>24</host><time>2023-11-08 15:20:42.382673</time></entry><entry><co2>1446.0</co2><illuminance>338.73</illuminance><temperature>24.53</temperature><sound>54.55</sound><voltage>229.05</voltage><host>24</host><time>2023-11-08 15:20:48.116617</time></entry><entry><co2>1443.0</co2><illuminance>338.73</illuminance><temperature>24.53</temperature><sound>44.63</sound><voltage>228.846</voltage><host>24</host><time>2023-11-08 15:20:53.543848</time></entry><entry><co2>1441.0</co2><illuminance>338.34</illuminance><temperature>24.53</temperature><sound>60.13</sound><voltage>228.954</voltage><host>24</host><time>2023-11-08 15:20:59.073451</time></entry><entry><co2>1437.0</co2><illuminance>338.34</illuminance><temperature>24.56</temperature><sound>59.99</sound><voltage>228.96</voltage><host>24</host><time>2023-11-08 15:21:04.295581</time></entry><entry><co2>1435.0</co2><illuminance>338.73</illuminance><temperature>24.59</temperature><sound>56.23</sound><voltage>229.229</voltage><host>24</host><time>2023-11-08 15:21:10.133830</time></entry><entry><co2>1430.0</co2><illuminance>338.34</illuminance><temperature>24.56</temperature><sound>66.93</sound><voltage>229.192</voltage><host>24</host><time>2023-11-08 15:21:15.970248</time></entry><entry><co2>1427.0</co2><illuminance>338.34</illuminance><temperature>24.6</temperature><sound>51.54</sound><voltage>229.22</voltage><host>24</host><time>2023-11-08 15:21:21.499786</time></entry><entry><co2>1425.0</co2><illuminance>560.19</illuminance><temperature>24.59</temperature><sound>52.28</sound><voltage>229.181</voltage><host>24</host><time>2023-11-08 15:21:27.130764</time></entry><entry><co2>1422.0</co2><illuminance>410.53</illuminance><temperature>24.6</temperature><sound>52.16</sound><voltage>229.288</voltage><host>24</host><time>2023-11-08 15:21:32.661364</time></entry><entry><co2>1420.0</co2><illuminance>337.95</illuminance><temperature>24.61</temperature><sound>54.62</sound><voltage>228.998</voltage><host>24</host><time>2023-11-08 15:21:38.189603</time></entry><entry><co2>1417.0</co2><illuminance>337.95</illuminance><temperature>24.63</temperature><sound>56.9</sound><voltage>229.09</voltage><host>24</host><time>2023-11-08 15:21:43.821728</time></entry><entry><co2>1415.0</co2><illuminance>337.56</illuminance><temperature>24.63</temperature><sound>58.94</sound><voltage>229.069</voltage><host>24</host><time>2023-11-08 15:21:49.351269</time></entry><entry><co2>1410.0</co2><illuminance>337.95</illuminance><temperature>24.64</temperature><sound>55.98</sound><voltage>228.866</voltage><host>24</host><time>2023-11-08 15:21:55.085780</time></entry><entry><co2>1408.0</co2><illuminance>337.56</illuminance><temperature>24.66</temperature><sound>54.11</sound><voltage>228.881</voltage><host>24</host><time>2023-11-08 15:22:00.615284</time></entry><entry><co2>1406.0</co2><illuminance>337.56</illuminance><temperature>24.64</temperature><sound>55.1</sound><voltage>229.143</voltage><host>24</host><time>2023-11-08 15:22:05.940308</time></entry><entry><co2>1406.0</co2><illuminance>337.95</illuminance><temperature>24.66</temperature><sound>62.2</sound><voltage>229.159</voltage><host>24</host><time>2023-11-08 15:22:11.059847</time></entry><entry><co2>1403.0</co2><illuminance>337.95</illuminance><temperature>24.66</temperature><sound>56.33</sound><voltage>229.224</voltage><host>24</host><time>2023-11-08 15:22:16.079372</time></entry><entry><co2>1398.0</co2><illuminance>337.17</illuminance><temperature>24.68</temperature><sound>60.14</sound><voltage>229.353</voltage><host>24</host><time>2023-11-08 15:22:22.947276</time></entry><entry><co2>1396.0</co2><illuminance>337.95</illuminance><temperature>24.67</temperature><sound>53.36</sound><voltage>229.81</voltage><host>24</host><time>2023-11-08 15:22:28.160806</time></entry><entry><co2>1394.0</co2><illuminance>495.41</illuminance><temperature>24.7</temperature><sound>54.14</sound><voltage>229.949</voltage><host>24</host><time>2023-11-08 15:22:34.101745</time></entry><entry><co2>1391.0</co2><illuminance>337.17</illuminance><temperature>24.71</temperature><sound>57.34</sound><voltage>229.696</voltage><host>24</host><time>2023-11-08 15:22:39.630209</time></entry><entry><co2>1389.0</co2><illuminance>337.56</illuminance><temperature>24.73</temperature><sound>62.51</sound><voltage>229.809</voltage><host>24</host><time>2023-11-08 15:22:45.158886</time></entry><entry><co2>1387.0</co2><illuminance>337.17</illuminance><temperature>24.73</temperature><sound>54.68</sound><voltage>229.398</voltage><host>24</host><time>2023-11-08 15:22:50.790877</time></entry><entry><co2>1384.0</co2><illuminance>337.17</illuminance><temperature>24.74</temperature><sound>60.91</sound><voltage>229.61</voltage><host>24</host><time>2023-11-08 15:22:56.013267</time></entry><entry><co2>1380.0</co2><illuminance>337.95</illuminance><temperature>24.74</temperature><sound>50.08</sound><voltage>229.857</voltage><host>24</host><time>2023-11-08 15:23:02.054678</time></entry><entry><co2>1377.0</co2><illuminance>337.17</illuminance><temperature>24.74</temperature><sound>58.21</sound><voltage>229.918</voltage><host>24</host><time>2023-11-08 15:23:07.584425</time></entry><entry><co2>1375.0</co2><illuminance>337.17</illuminance><temperature>24.76</temperature><sound>50.68</sound><voltage>229.929</voltage><host>24</host><time>2023-11-08 15:23:13.216028</time></entry><entry><co2>1373.0</co2><illuminance>337.56</illuminance><temperature>24.78</temperature><sound>57.52</sound><voltage>229.743</voltage><host>24</host><time>2023-11-08 15:23:18.745665</time></entry><entry><co2>1372.0</co2><illuminance>337.17</illuminance><temperature>24.79</temperature><sound>51.71</sound><voltage>229.851</voltage><host>24</host><time>2023-11-08 15:23:24.173255</time></entry><entry><co2>1370.0</co2><illuminance>337.56</illuminance><temperature>24.78</temperature><sound>57.9</sound><voltage>229.806</voltage><host>24</host><time>2023-11-08 15:23:29.907077</time></entry><entry><co2>1369.0</co2><illuminance>337.17</illuminance><temperature>24.79</temperature><sound>54.92</sound><voltage>229.848</voltage><host>24</host><time>2023-11-08 15:23:35.437069</time></entry><entry><co2>1367.0</co2><illuminance>337.17</illuminance><temperature>24.79</temperature><sound>59.45</sound><voltage>229.751</voltage><host>24</host><time>2023-11-08 15:23:41.025621</time></entry><entry><co2>1365.0</co2><illuminance>337.17</illuminance><temperature>24.81</temperature><sound>58.85</sound><voltage>229.782</voltage><host>24</host><time>2023-11-08 15:23:46.599668</time></entry><entry><co2>1362.0</co2><illuminance>336.78</illuminance><temperature>24.82</temperature><sound>52.37</sound><voltage>229.822</voltage><host>24</host><time>2023-11-08 15:23:52.230201</time></entry><entry><co2>1360.0</co2><illuminance>336.78</illuminance><temperature>24.83</temperature><sound>64.52</sound><voltage>229.594</voltage><host>24</host><time>2023-11-08 15:23:57.862030</time></entry><entry><co2>1358.0</co2><illuminance>336.78</illuminance><temperature>24.83</temperature><sound>60.05</sound><voltage>229.808</voltage><host>24</host><time>2023-11-08 15:24:03.391534</time></entry><entry><co2>1356.0</co2><illuminance>336.78</illuminance><temperature>24.83</temperature><sound>60.25</sound><voltage>229.697</voltage><host>24</host><time>2023-11-08 15:24:09.023638</time></entry><entry><co2>1353.0</co2><illuminance>336.78</illuminance><temperature>24.85</temperature><sound>60.63</sound><voltage>229.853</voltage><host>24</host><time>2023-11-08 15:24:14.041260</time></entry><entry><co2>1351.0</co2><illuminance>336.78</illuminance><temperature>24.86</temperature><sound>57.53</sound><voltage>229.915</voltage><host>24</host><time>2023-11-08 15:24:19.980295</time></entry><entry><co2>1350.0</co2><illuminance>336.78</illuminance><temperature>24.86</temperature><sound>55.4</sound><voltage>229.965</voltage><host>24</host><time>2023-11-08 15:24:25.100566</time></entry><entry><co2>1347.0</co2><illuminance>336.78</illuminance><temperature>24.88</temperature><sound>47.61</sound><voltage>229.61</voltage><host>24</host><time>2023-11-08 15:24:31.038816</time></entry><entry><co2>1345.0</co2><illuminance>336.78</illuminance><temperature>24.89</temperature><sound>52.25</sound><voltage>229.961</voltage><host>24</host><time>2023-11-08 15:24:36.877634</time></entry><entry><co2>1343.0</co2><illuminance>337.17</illuminance><temperature>24.89</temperature><sound>53.9</sound><voltage>230.026</voltage><host>24</host><time>2023-11-08 15:24:42.100940</time></entry><entry><co2>1341.0</co2><illuminance>336.39</illuminance><temperature>24.88</temperature><sound>49.94</sound><voltage>229.978</voltage><host>24</host><time>2023-11-08 15:24:47.115765</time></entry><entry><co2>1338.0</co2><illuminance>337.17</illuminance><temperature>24.89</temperature><sound>52.2</sound><voltage>230.008</voltage><host>24</host><time>2023-11-08 15:24:53.568244</time></entry><entry><co2>1334.0</co2><illuminance>336.78</illuminance><temperature>24.91</temperature><sound>54.01</sound><voltage>229.774</voltage><host>24</host><time>2023-11-08 15:24:59.199734</time></entry><entry><co2>1332.0</co2><illuminance>552.58</illuminance><temperature>24.93</temperature><sound>59.22</sound><voltage>229.793</voltage><host>24</host><time>2023-11-08 15:25:04.728761</time></entry><entry><co2>1330.0</co2><illuminance>336.39</illuminance><temperature>24.93</temperature><sound>53.99</sound><voltage>230.15</voltage><host>24</host><time>2023-11-08 15:25:10.053336</time></entry><entry><co2>1286.0</co2><illuminance>336.39</illuminance><temperature>24.96</temperature><sound>59.13</sound><voltage>230.034</voltage><host>24</host><time>2023-11-08 15:25:15.275885</time></entry><entry><co2>1285.0</co2><illuminance>336.39</illuminance><temperature>24.93</temperature><sound>60.19</sound><voltage>229.637</voltage><host>24</host><time>2023-11-08 15:25:21.522137</time></entry><entry><co2>1283.0</co2><illuminance>336.78</illuminance><temperature>24.96</temperature><sound>51.81</sound><voltage>229.73</voltage><host>24</host><time>2023-11-08 15:25:27.051886</time></entry><entry><co2>1281.0</co2><illuminance>336.39</illuminance><temperature>24.97</temperature><sound>53.71</sound><voltage>229.981</voltage><host>24</host><time>2023-11-08 15:25:32.683204</time></entry><entry><co2>1279.0</co2><illuminance>512.19</illuminance><temperature>24.96</temperature><sound>61.76</sound><voltage>229.932</voltage><host>24</host><time>2023-11-08 15:25:38.213216</time></entry><entry><co2>1276.0</co2><illuminance>334.04</illuminance><temperature>24.97</temperature><sound>66.62</sound><voltage>229.639</voltage><host>24</host><time>2023-11-08 15:25:43.844930</time></entry><entry><co2>1273.0</co2><illuminance>334.04</illuminance><temperature>24.98</temperature><sound>64.13</sound><voltage>229.736</voltage><host>24</host><time>2023-11-08 15:25:49.375687</time></entry><entry><co2>1271.0</co2><illuminance>333.65</illuminance><temperature>25.0</temperature><sound>60.36</sound><voltage>229.51</voltage><host>24</host><time>2023-11-08 15:25:55.109113</time></entry><entry><co2>1269.0</co2><illuminance>333.26</illuminance><temperature>24.97</temperature><sound>48.7</sound><voltage>229.767</voltage><host>24</host><time>2023-11-08 15:26:00.639988</time></entry><entry><co2>1267.0</co2><illuminance>334.24</illuminance><temperature>25.0</temperature><sound>62.92</sound><voltage>229.395</voltage><host>24</host><time>2023-11-08 15:26:06.169751</time></entry><entry><co2>1265.0</co2><illuminance>333.46</illuminance><temperature>25.01</temperature><sound>65.77</sound><voltage>229.238</voltage><host>24</host><time>2023-11-08 15:26:11.697883</time></entry><entry><co2>1263.0</co2><illuminance>333.65</illuminance><temperature>25.03</temperature><sound>61.34</sound><voltage>229.281</voltage><host>24</host><time>2023-11-08 15:26:16.920221</time></entry><entry><co2>1261.0</co2><illuminance>334.43</illuminance><temperature>25.03</temperature><sound>57.97</sound><voltage>229.302</voltage><host>24</host><time>2023-11-08 15:26:22.040241</time></entry><entry><co2>1259.0</co2><illuminance>335.21</illuminance><temperature>25.01</temperature><sound>55.45</sound><voltage>229.53</voltage><host>24</host><time>2023-11-08 15:26:27.057549</time></entry><entry><co2>1259.0</co2><illuminance>335.6</illuminance><temperature>25.03</temperature><sound>61.22</sound><voltage>229.619</voltage><host>24</host><time>2023-11-08 15:26:34.020762</time></entry><entry><co2>1258.0</co2><illuminance>335.6</illuminance><temperature>25.06</temperature><sound>60.29</sound><voltage>229.485</voltage><host>24</host><time>2023-11-08 15:26:39.140970</time></entry><entry><co2>1256.0</co2><illuminance>336.0</illuminance><temperature>25.06</temperature><sound>50.63</sound><voltage>229.649</voltage><host>24</host><time>2023-11-08 15:26:45.079828</time></entry><entry><co2>1252.0</co2><illuminance>335.6</illuminance><temperature>25.06</temperature><sound>59.94</sound><voltage>229.581</voltage><host>24</host><time>2023-11-08 15:26:50.814203</time></entry><entry><co2>1250.0</co2><illuminance>335.6</illuminance><temperature>25.07</temperature><sound>54.88</sound><voltage>229.341</voltage><host>24</host><time>2023-11-08 15:26:56.241508</time></entry><entry><co2>1247.0</co2><illuminance>335.6</illuminance><temperature>25.06</temperature><sound>64.42</sound><voltage>229.673</voltage><host>24</host><time>2023-11-08 15:27:02.078610</time></entry><entry><co2>1246.0</co2><illuminance>336.0</illuminance><temperature>25.08</temperature><sound>57.56</sound><voltage>229.427</voltage><host>24</host><time>2023-11-08 15:27:07.607923</time></entry><entry><co2>1244.0</co2><illuminance>336.39</illuminance><temperature>25.08</temperature><sound>48.78</sound><voltage>229.704</voltage><host>24</host><time>2023-11-08 15:27:13.138904</time></entry><entry><co2>1242.0</co2><illuminance>336.0</illuminance><temperature>25.08</temperature><sound>55.7</sound><voltage>229.732</voltage><host>24</host><time>2023-11-08 15:27:18.769064</time></entry><entry><co2>1241.0</co2><illuminance>336.39</illuminance><temperature>25.1</temperature><sound>46.1</sound><voltage>229.899</voltage><host>24</host><time>2023-11-08 15:27:24.401279</time></entry><entry><co2>1239.0</co2><illuminance>336.0</illuminance><temperature>25.11</temperature><sound>59.57</sound><voltage>229.488</voltage><host>24</host><time>2023-11-08 15:27:30.033248</time></entry><entry><co2>1237.0</co2><illuminance>335.6</illuminance><temperature>25.11</temperature><sound>57.73</sound><voltage>229.598</voltage><host>24</host><time>2023-11-08 15:27:35.153261</time></entry><entry><co2>1235.0</co2><illuminance>336.0</illuminance><temperature>25.13</temperature><sound>61.93</sound><voltage>229.63</voltage><host>24</host><time>2023-11-08 15:27:41.092014</time></entry><entry><co2>1234.0</co2><illuminance>336.39</illuminance><temperature>25.11</temperature><sound>70.53</sound><voltage>229.7</voltage><host>24</host><time>2023-11-08 15:27:46.621848</time></entry><entry><co2>1232.0</co2><illuminance>336.39</illuminance><temperature>25.13</temperature><sound>66.68</sound><voltage>229.087</voltage><host>24</host><time>2023-11-08 15:27:52.255734</time></entry><entry><co2>1231.0</co2><illuminance>336.78</illuminance><temperature>25.13</temperature><sound>58.11</sound><voltage>229.089</voltage><host>24</host><time>2023-11-08 15:27:57.783421</time></entry><entry><co2>1229.0</co2><illuminance>336.78</illuminance><temperature>25.16</temperature><sound>62.21</sound><voltage>229.306</voltage><host>24</host><time>2023-11-08 15:28:03.415258</time></entry><entry><co2>1228.0</co2><illuminance>336.39</illuminance><temperature>25.16</temperature><sound>53.55</sound><voltage>229.15</voltage><host>24</host><time>2023-11-08 15:28:09.047360</time></entry><entry><co2>1227.0</co2><illuminance>264.58</illuminance><temperature>25.16</temperature><sound>64.88</sound><voltage>229.082</voltage><host>24</host><time>2023-11-08 15:28:14.576404</time></entry><entry><co2>1225.0</co2><illuminance>312.39</illuminance><temperature>25.16</temperature><sound>58.73</sound><voltage>229.135</voltage><host>24</host><time>2023-11-08 15:28:20.210721</time></entry><entry><co2>1222.0</co2><illuminance>315.12</illuminance><temperature>25.18</temperature><sound>52.4</sound><voltage>229.148</voltage><host>24</host><time>2023-11-08 15:28:25.842477</time></entry><entry><co2>1222.0</co2><illuminance>336.39</illuminance><temperature>25.18</temperature><sound>59.32</sound><voltage>229.204</voltage><host>24</host><time>2023-11-08 15:28:30.960658</time></entry><entry><co2>1222.0</co2><illuminance>301.46</illuminance><temperature>25.19</temperature><sound>58.36</sound><voltage>229.05</voltage><host>24</host><time>2023-11-08 15:28:36.080599</time></entry><entry><co2>1222.0</co2><illuminance>315.12</illuminance><temperature>25.19</temperature><sound>62.01</sound><voltage>228.807</voltage><host>24</host><time>2023-11-08 15:28:41.098294</time></entry><entry><co2>1222.0</co2><illuminance>329.56</illuminance><temperature>25.19</temperature><sound>63.44</sound><voltage>228.865</voltage><host>24</host><time>2023-11-08 15:28:48.061445</time></entry><entry><co2>1222.0</co2><illuminance>336.0</illuminance><temperature>25.22</temperature><sound>53.99</sound><voltage>228.965</voltage><host>24</host><time>2023-11-08 15:28:53.182235</time></entry><entry><co2>1222.0</co2><illuminance>334.82</illuminance><temperature>25.21</temperature><sound>55.94</sound><voltage>228.775</voltage><host>24</host><time>2023-11-08 15:28:59.120677</time></entry><entry><co2>1220.0</co2><illuminance>326.04</illuminance><temperature>25.22</temperature><sound>62.58</sound><voltage>229.074</voltage><host>24</host><time>2023-11-08 15:29:04.957171</time></entry><entry><co2>1219.0</co2><illuminance>326.04</illuminance><temperature>25.22</temperature><sound>66.45</sound><voltage>229.036</voltage><host>24</host><time>2023-11-08 15:29:10.589046</time></entry><entry><co2>1217.0</co2><illuminance>332.29</illuminance><temperature>25.23</temperature><sound>53.8</sound><voltage>229.072</voltage><host>24</host><time>2023-11-08 15:29:16.119806</time></entry><entry><co2>1214.0</co2><illuminance>329.56</illuminance><temperature>25.23</temperature><sound>56.28</sound><voltage>229.014</voltage><host>24</host><time>2023-11-08 15:29:21.648058</time></entry><entry><co2>1212.0</co2><illuminance>328.0</illuminance><temperature>25.22</temperature><sound>65.67</sound><voltage>228.809</voltage><host>24</host><time>2023-11-08 15:29:27.280249</time></entry><entry><co2>1208.0</co2><illuminance>333.26</illuminance><temperature>25.23</temperature><sound>56.13</sound><voltage>228.866</voltage><host>24</host><time>2023-11-08 15:29:32.809907</time></entry><entry><co2>1207.0</co2><illuminance>336.78</illuminance><temperature>25.25</temperature><sound>59.46</sound><voltage>229.016</voltage><host>24</host><time>2023-11-08 15:29:38.032331</time></entry><entry><co2>1204.0</co2><illuminance>337.56</illuminance><temperature>25.25</temperature><sound>55.42</sound><voltage>229.025</voltage><host>24</host><time>2023-11-08 15:29:43.972230</time></entry><entry><co2>1202.0</co2><illuminance>337.56</illuminance><temperature>25.26</temperature><sound>56.34</sound><voltage>229.071</voltage><host>24</host><time>2023-11-08 15:29:49.603297</time></entry><entry><co2>1200.0</co2><illuminance>337.56</illuminance><temperature>25.25</temperature><sound>55.51</sound><voltage>229.002</voltage><host>24</host><time>2023-11-08 15:29:55.132912</time></entry><entry><co2>1198.0</co2><illuminance>337.56</illuminance><temperature>25.28</temperature><sound>58.19</sound><voltage>229.302</voltage><host>24</host><time>2023-11-08 15:30:00.764867</time></entry><entry><co2>1195.0</co2><illuminance>336.39</illuminance><temperature>25.29</temperature><sound>53.39</sound><voltage>229.477</voltage><host>24</host><time>2023-11-08 15:30:06.194247</time></entry><entry><co2>1193.0</co2><illuminance>337.56</illuminance><temperature>25.25</temperature><sound>46.74</sound><voltage>229.974</voltage><host>24</host><time>2023-11-08 15:30:12.028825</time></entry><entry><co2>1189.0</co2><illuminance>337.17</illuminance><temperature>25.28</temperature><sound>62.01</sound><voltage>229.981</voltage><host>24</host><time>2023-11-08 15:30:17.456956</time></entry><entry><co2>1187.0</co2><illuminance>337.17</illuminance><temperature>25.29</temperature><sound>54.0</sound><voltage>229.962</voltage><host>24</host><time>2023-11-08 15:30:23.096718</time></entry><entry><co2>1184.0</co2><illuminance>335.21</illuminance><temperature>25.3</temperature><sound>68.98</sound><voltage>229.765</voltage><host>24</host><time>2023-11-08 15:30:28.114971</time></entry><entry><co2>1184.0</co2><illuminance>336.0</illuminance><temperature>25.29</temperature><sound>66.14</sound><voltage>229.696</voltage><host>24</host><time>2023-11-08 15:30:33.124080</time></entry></data>
+<data>
+    <entry>
+        <co2>1565.0</co2>
+        <illuminance>331.51</illuminance>
+        <temperature>24.23</temperature>
+        <sound>65.15</sound>
+        <voltage>229.227</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:17:43.798049</time>
+    </entry>
+    <entry>
+        <co2>1563.0</co2>
+        <illuminance>333.65</illuminance>
+        <temperature>24.23</temperature>
+        <sound>51.54</sound>
+        <voltage>229.005</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:17:49.020006</time>
+    </entry>
+    <entry>
+        <co2>1561.0</co2>
+        <illuminance>332.87</illuminance>
+        <temperature>24.23</temperature>
+        <sound>77.22</sound>
+        <voltage>228.979</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:17:54.243088</time>
+    </entry>
+    <entry>
+        <co2>1559.0</co2>
+        <illuminance>333.46</illuminance>
+        <temperature>24.24</temperature>
+        <sound>64.24</sound>
+        <voltage>229.179</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:18:00.079637</time>
+    </entry>
+    <entry>
+        <co2>1556.0</co2>
+        <illuminance>335.6</illuminance>
+        <temperature>24.24</temperature>
+        <sound>52.7</sound>
+        <voltage>229.107</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:18:06.018108</time>
+    </entry>
+    <entry>
+        <co2>1555.0</co2>
+        <illuminance>337.95</illuminance>
+        <temperature>24.27</temperature>
+        <sound>55.17</sound>
+        <voltage>229.107</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:18:11.651088</time>
+    </entry>
+    <entry>
+        <co2>1552.0</co2>
+        <illuminance>339.51</illuminance>
+        <temperature>24.27</temperature>
+        <sound>50.08</sound>
+        <voltage>229.131</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:18:17.077781</time>
+    </entry>
+    <entry>
+        <co2>1550.0</co2>
+        <illuminance>339.51</illuminance>
+        <temperature>24.29</temperature>
+        <sound>47.67</sound>
+        <voltage>229.058</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:18:22.095379</time>
+    </entry>
+    <entry>
+        <co2>1547.0</co2>
+        <illuminance>339.9</illuminance>
+        <temperature>24.3</temperature>
+        <sound>52.78</sound>
+        <voltage>229.06</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:18:27.317987</time>
+    </entry>
+    <entry>
+        <co2>1542.0</co2>
+        <illuminance>339.51</illuminance>
+        <temperature>24.3</temperature>
+        <sound>50.29</sound>
+        <voltage>229.009</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:18:34.076504</time>
+    </entry>
+    <entry>
+        <co2>1538.0</co2>
+        <illuminance>339.12</illuminance>
+        <temperature>24.31</temperature>
+        <sound>55.76</sound>
+        <voltage>228.872</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:18:39.093681</time>
+    </entry>
+    <entry>
+        <co2>1535.0</co2>
+        <illuminance>338.73</illuminance>
+        <temperature>24.31</temperature>
+        <sound>50.01</sound>
+        <voltage>228.879</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:18:45.237588</time>
+    </entry>
+    <entry>
+        <co2>1532.0</co2>
+        <illuminance>334.04</illuminance>
+        <temperature>24.33</temperature>
+        <sound>48.14</sound>
+        <voltage>228.735</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:18:50.767221</time>
+    </entry>
+    <entry>
+        <co2>1530.0</co2>
+        <illuminance>322.92</illuminance>
+        <temperature>24.33</temperature>
+        <sound>54.62</sound>
+        <voltage>228.882</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:18:56.091741</time>
+    </entry>
+    <entry>
+        <co2>1527.0</co2>
+        <illuminance>563.9</illuminance>
+        <temperature>24.34</temperature>
+        <sound>58.9</sound>
+        <voltage>229.097</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:19:02.030732</time>
+    </entry>
+    <entry>
+        <co2>1523.0</co2>
+        <illuminance>320.58</illuminance>
+        <temperature>24.37</temperature>
+        <sound>59.76</sound>
+        <voltage>229.11</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:19:07.662871</time>
+    </entry>
+    <entry>
+        <co2>1519.0</co2>
+        <illuminance>322.92</illuminance>
+        <temperature>24.37</temperature>
+        <sound>62.75</sound>
+        <voltage>229.087</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:19:13.089790</time>
+    </entry>
+    <entry>
+        <co2>1512.0</co2>
+        <illuminance>327.21</illuminance>
+        <temperature>24.39</temperature>
+        <sound>60.88</sound>
+        <voltage>229.171</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:19:18.722678</time>
+    </entry>
+    <entry>
+        <co2>1508.0</co2>
+        <illuminance>330.34</illuminance>
+        <temperature>24.39</temperature>
+        <sound>68.3</sound>
+        <voltage>229.292</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:19:24.251500</time>
+    </entry>
+    <entry>
+        <co2>1504.0</co2>
+        <illuminance>333.65</illuminance>
+        <temperature>24.41</temperature>
+        <sound>51.24</sound>
+        <voltage>229.327</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:19:29.781136</time>
+    </entry>
+    <entry>
+        <co2>1500.0</co2>
+        <illuminance>336.0</illuminance>
+        <temperature>24.42</temperature>
+        <sound>64.52</sound>
+        <voltage>229.291</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:19:35.413068</time>
+    </entry>
+    <entry>
+        <co2>1496.0</co2>
+        <illuminance>332.87</illuminance>
+        <temperature>24.44</temperature>
+        <sound>60.7</sound>
+        <voltage>229.267</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:19:41.045192</time>
+    </entry>
+    <entry>
+        <co2>1492.0</co2>
+        <illuminance>322.53</illuminance>
+        <temperature>24.44</temperature>
+        <sound>52.13</sound>
+        <voltage>229.226</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:19:46.062403</time>
+    </entry>
+    <entry>
+        <co2>1487.0</co2>
+        <illuminance>338.73</illuminance>
+        <temperature>24.45</temperature>
+        <sound>60.26</sound>
+        <voltage>229.066</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:19:51.182591</time>
+    </entry>
+    <entry>
+        <co2>1483.0</co2>
+        <illuminance>338.73</illuminance>
+        <temperature>24.45</temperature>
+        <sound>56.73</sound>
+        <voltage>229.254</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:19:57.122795</time>
+    </entry>
+    <entry>
+        <co2>1479.0</co2>
+        <illuminance>338.73</illuminance>
+        <temperature>24.46</temperature>
+        <sound>54.17</sound>
+        <voltage>229.199</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:20:03.061018</time>
+    </entry>
+    <entry>
+        <co2>1474.0</co2>
+        <illuminance>339.12</illuminance>
+        <temperature>24.46</temperature>
+        <sound>58.77</sound>
+        <voltage>228.992</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:20:08.283427</time>
+    </entry>
+    <entry>
+        <co2>1470.0</co2>
+        <illuminance>339.12</illuminance>
+        <temperature>24.48</temperature>
+        <sound>57.45</sound>
+        <voltage>229.173</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:20:14.119905</time>
+    </entry>
+    <entry>
+        <co2>1467.0</co2>
+        <illuminance>338.73</illuminance>
+        <temperature>24.49</temperature>
+        <sound>50.85</sound>
+        <voltage>229.029</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:20:20.059185</time>
+    </entry>
+    <entry>
+        <co2>1459.0</co2>
+        <illuminance>339.12</illuminance>
+        <temperature>24.49</temperature>
+        <sound>54.55</sound>
+        <voltage>228.949</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:20:25.691164</time>
+    </entry>
+    <entry>
+        <co2>1456.0</co2>
+        <illuminance>338.73</illuminance>
+        <temperature>24.51</temperature>
+        <sound>53.28</sound>
+        <voltage>229.064</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:20:31.118110</time>
+    </entry>
+    <entry>
+        <co2>1452.0</co2>
+        <illuminance>339.12</illuminance>
+        <temperature>24.52</temperature>
+        <sound>50.14</sound>
+        <voltage>228.84</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:20:36.852826</time>
+    </entry>
+    <entry>
+        <co2>1449.0</co2>
+        <illuminance>338.73</illuminance>
+        <temperature>24.52</temperature>
+        <sound>57.72</sound>
+        <voltage>228.9</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:20:42.382673</time>
+    </entry>
+    <entry>
+        <co2>1446.0</co2>
+        <illuminance>338.73</illuminance>
+        <temperature>24.53</temperature>
+        <sound>54.55</sound>
+        <voltage>229.05</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:20:48.116617</time>
+    </entry>
+    <entry>
+        <co2>1443.0</co2>
+        <illuminance>338.73</illuminance>
+        <temperature>24.53</temperature>
+        <sound>44.63</sound>
+        <voltage>228.846</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:20:53.543848</time>
+    </entry>
+    <entry>
+        <co2>1441.0</co2>
+        <illuminance>338.34</illuminance>
+        <temperature>24.53</temperature>
+        <sound>60.13</sound>
+        <voltage>228.954</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:20:59.073451</time>
+    </entry>
+    <entry>
+        <co2>1437.0</co2>
+        <illuminance>338.34</illuminance>
+        <temperature>24.56</temperature>
+        <sound>59.99</sound>
+        <voltage>228.96</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:21:04.295581</time>
+    </entry>
+    <entry>
+        <co2>1435.0</co2>
+        <illuminance>338.73</illuminance>
+        <temperature>24.59</temperature>
+        <sound>56.23</sound>
+        <voltage>229.229</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:21:10.133830</time>
+    </entry>
+    <entry>
+        <co2>1430.0</co2>
+        <illuminance>338.34</illuminance>
+        <temperature>24.56</temperature>
+        <sound>66.93</sound>
+        <voltage>229.192</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:21:15.970248</time>
+    </entry>
+    <entry>
+        <co2>1427.0</co2>
+        <illuminance>338.34</illuminance>
+        <temperature>24.6</temperature>
+        <sound>51.54</sound>
+        <voltage>229.22</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:21:21.499786</time>
+    </entry>
+    <entry>
+        <co2>1425.0</co2>
+        <illuminance>560.19</illuminance>
+        <temperature>24.59</temperature>
+        <sound>52.28</sound>
+        <voltage>229.181</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:21:27.130764</time>
+    </entry>
+    <entry>
+        <co2>1422.0</co2>
+        <illuminance>410.53</illuminance>
+        <temperature>24.6</temperature>
+        <sound>52.16</sound>
+        <voltage>229.288</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:21:32.661364</time>
+    </entry>
+    <entry>
+        <co2>1420.0</co2>
+        <illuminance>337.95</illuminance>
+        <temperature>24.61</temperature>
+        <sound>54.62</sound>
+        <voltage>228.998</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:21:38.189603</time>
+    </entry>
+    <entry>
+        <co2>1417.0</co2>
+        <illuminance>337.95</illuminance>
+        <temperature>24.63</temperature>
+        <sound>56.9</sound>
+        <voltage>229.09</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:21:43.821728</time>
+    </entry>
+    <entry>
+        <co2>1415.0</co2>
+        <illuminance>337.56</illuminance>
+        <temperature>24.63</temperature>
+        <sound>58.94</sound>
+        <voltage>229.069</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:21:49.351269</time>
+    </entry>
+    <entry>
+        <co2>1410.0</co2>
+        <illuminance>337.95</illuminance>
+        <temperature>24.64</temperature>
+        <sound>55.98</sound>
+        <voltage>228.866</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:21:55.085780</time>
+    </entry>
+    <entry>
+        <co2>1408.0</co2>
+        <illuminance>337.56</illuminance>
+        <temperature>24.66</temperature>
+        <sound>54.11</sound>
+        <voltage>228.881</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:22:00.615284</time>
+    </entry>
+    <entry>
+        <co2>1406.0</co2>
+        <illuminance>337.56</illuminance>
+        <temperature>24.64</temperature>
+        <sound>55.1</sound>
+        <voltage>229.143</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:22:05.940308</time>
+    </entry>
+    <entry>
+        <co2>1406.0</co2>
+        <illuminance>337.95</illuminance>
+        <temperature>24.66</temperature>
+        <sound>62.2</sound>
+        <voltage>229.159</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:22:11.059847</time>
+    </entry>
+    <entry>
+        <co2>1403.0</co2>
+        <illuminance>337.95</illuminance>
+        <temperature>24.66</temperature>
+        <sound>56.33</sound>
+        <voltage>229.224</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:22:16.079372</time>
+    </entry>
+    <entry>
+        <co2>1398.0</co2>
+        <illuminance>337.17</illuminance>
+        <temperature>24.68</temperature>
+        <sound>60.14</sound>
+        <voltage>229.353</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:22:22.947276</time>
+    </entry>
+    <entry>
+        <co2>1396.0</co2>
+        <illuminance>337.95</illuminance>
+        <temperature>24.67</temperature>
+        <sound>53.36</sound>
+        <voltage>229.81</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:22:28.160806</time>
+    </entry>
+    <entry>
+        <co2>1394.0</co2>
+        <illuminance>495.41</illuminance>
+        <temperature>24.7</temperature>
+        <sound>54.14</sound>
+        <voltage>229.949</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:22:34.101745</time>
+    </entry>
+    <entry>
+        <co2>1391.0</co2>
+        <illuminance>337.17</illuminance>
+        <temperature>24.71</temperature>
+        <sound>57.34</sound>
+        <voltage>229.696</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:22:39.630209</time>
+    </entry>
+    <entry>
+        <co2>1389.0</co2>
+        <illuminance>337.56</illuminance>
+        <temperature>24.73</temperature>
+        <sound>62.51</sound>
+        <voltage>229.809</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:22:45.158886</time>
+    </entry>
+    <entry>
+        <co2>1387.0</co2>
+        <illuminance>337.17</illuminance>
+        <temperature>24.73</temperature>
+        <sound>54.68</sound>
+        <voltage>229.398</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:22:50.790877</time>
+    </entry>
+    <entry>
+        <co2>1384.0</co2>
+        <illuminance>337.17</illuminance>
+        <temperature>24.74</temperature>
+        <sound>60.91</sound>
+        <voltage>229.61</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:22:56.013267</time>
+    </entry>
+    <entry>
+        <co2>1380.0</co2>
+        <illuminance>337.95</illuminance>
+        <temperature>24.74</temperature>
+        <sound>50.08</sound>
+        <voltage>229.857</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:23:02.054678</time>
+    </entry>
+    <entry>
+        <co2>1377.0</co2>
+        <illuminance>337.17</illuminance>
+        <temperature>24.74</temperature>
+        <sound>58.21</sound>
+        <voltage>229.918</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:23:07.584425</time>
+    </entry>
+    <entry>
+        <co2>1375.0</co2>
+        <illuminance>337.17</illuminance>
+        <temperature>24.76</temperature>
+        <sound>50.68</sound>
+        <voltage>229.929</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:23:13.216028</time>
+    </entry>
+    <entry>
+        <co2>1373.0</co2>
+        <illuminance>337.56</illuminance>
+        <temperature>24.78</temperature>
+        <sound>57.52</sound>
+        <voltage>229.743</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:23:18.745665</time>
+    </entry>
+    <entry>
+        <co2>1372.0</co2>
+        <illuminance>337.17</illuminance>
+        <temperature>24.79</temperature>
+        <sound>51.71</sound>
+        <voltage>229.851</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:23:24.173255</time>
+    </entry>
+    <entry>
+        <co2>1370.0</co2>
+        <illuminance>337.56</illuminance>
+        <temperature>24.78</temperature>
+        <sound>57.9</sound>
+        <voltage>229.806</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:23:29.907077</time>
+    </entry>
+    <entry>
+        <co2>1369.0</co2>
+        <illuminance>337.17</illuminance>
+        <temperature>24.79</temperature>
+        <sound>54.92</sound>
+        <voltage>229.848</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:23:35.437069</time>
+    </entry>
+    <entry>
+        <co2>1367.0</co2>
+        <illuminance>337.17</illuminance>
+        <temperature>24.79</temperature>
+        <sound>59.45</sound>
+        <voltage>229.751</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:23:41.025621</time>
+    </entry>
+    <entry>
+        <co2>1365.0</co2>
+        <illuminance>337.17</illuminance>
+        <temperature>24.81</temperature>
+        <sound>58.85</sound>
+        <voltage>229.782</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:23:46.599668</time>
+    </entry>
+    <entry>
+        <co2>1362.0</co2>
+        <illuminance>336.78</illuminance>
+        <temperature>24.82</temperature>
+        <sound>52.37</sound>
+        <voltage>229.822</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:23:52.230201</time>
+    </entry>
+    <entry>
+        <co2>1360.0</co2>
+        <illuminance>336.78</illuminance>
+        <temperature>24.83</temperature>
+        <sound>64.52</sound>
+        <voltage>229.594</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:23:57.862030</time>
+    </entry>
+    <entry>
+        <co2>1358.0</co2>
+        <illuminance>336.78</illuminance>
+        <temperature>24.83</temperature>
+        <sound>60.05</sound>
+        <voltage>229.808</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:24:03.391534</time>
+    </entry>
+    <entry>
+        <co2>1356.0</co2>
+        <illuminance>336.78</illuminance>
+        <temperature>24.83</temperature>
+        <sound>60.25</sound>
+        <voltage>229.697</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:24:09.023638</time>
+    </entry>
+    <entry>
+        <co2>1353.0</co2>
+        <illuminance>336.78</illuminance>
+        <temperature>24.85</temperature>
+        <sound>60.63</sound>
+        <voltage>229.853</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:24:14.041260</time>
+    </entry>
+    <entry>
+        <co2>1351.0</co2>
+        <illuminance>336.78</illuminance>
+        <temperature>24.86</temperature>
+        <sound>57.53</sound>
+        <voltage>229.915</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:24:19.980295</time>
+    </entry>
+    <entry>
+        <co2>1350.0</co2>
+        <illuminance>336.78</illuminance>
+        <temperature>24.86</temperature>
+        <sound>55.4</sound>
+        <voltage>229.965</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:24:25.100566</time>
+    </entry>
+    <entry>
+        <co2>1347.0</co2>
+        <illuminance>336.78</illuminance>
+        <temperature>24.88</temperature>
+        <sound>47.61</sound>
+        <voltage>229.61</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:24:31.038816</time>
+    </entry>
+    <entry>
+        <co2>1345.0</co2>
+        <illuminance>336.78</illuminance>
+        <temperature>24.89</temperature>
+        <sound>52.25</sound>
+        <voltage>229.961</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:24:36.877634</time>
+    </entry>
+    <entry>
+        <co2>1343.0</co2>
+        <illuminance>337.17</illuminance>
+        <temperature>24.89</temperature>
+        <sound>53.9</sound>
+        <voltage>230.026</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:24:42.100940</time>
+    </entry>
+    <entry>
+        <co2>1341.0</co2>
+        <illuminance>336.39</illuminance>
+        <temperature>24.88</temperature>
+        <sound>49.94</sound>
+        <voltage>229.978</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:24:47.115765</time>
+    </entry>
+    <entry>
+        <co2>1338.0</co2>
+        <illuminance>337.17</illuminance>
+        <temperature>24.89</temperature>
+        <sound>52.2</sound>
+        <voltage>230.008</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:24:53.568244</time>
+    </entry>
+    <entry>
+        <co2>1334.0</co2>
+        <illuminance>336.78</illuminance>
+        <temperature>24.91</temperature>
+        <sound>54.01</sound>
+        <voltage>229.774</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:24:59.199734</time>
+    </entry>
+    <entry>
+        <co2>1332.0</co2>
+        <illuminance>552.58</illuminance>
+        <temperature>24.93</temperature>
+        <sound>59.22</sound>
+        <voltage>229.793</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:25:04.728761</time>
+    </entry>
+    <entry>
+        <co2>1330.0</co2>
+        <illuminance>336.39</illuminance>
+        <temperature>24.93</temperature>
+        <sound>53.99</sound>
+        <voltage>230.15</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:25:10.053336</time>
+    </entry>
+    <entry>
+        <co2>1286.0</co2>
+        <illuminance>336.39</illuminance>
+        <temperature>24.96</temperature>
+        <sound>59.13</sound>
+        <voltage>230.034</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:25:15.275885</time>
+    </entry>
+    <entry>
+        <co2>1285.0</co2>
+        <illuminance>336.39</illuminance>
+        <temperature>24.93</temperature>
+        <sound>60.19</sound>
+        <voltage>229.637</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:25:21.522137</time>
+    </entry>
+    <entry>
+        <co2>1283.0</co2>
+        <illuminance>336.78</illuminance>
+        <temperature>24.96</temperature>
+        <sound>51.81</sound>
+        <voltage>229.73</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:25:27.051886</time>
+    </entry>
+    <entry>
+        <co2>1281.0</co2>
+        <illuminance>336.39</illuminance>
+        <temperature>24.97</temperature>
+        <sound>53.71</sound>
+        <voltage>229.981</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:25:32.683204</time>
+    </entry>
+    <entry>
+        <co2>1279.0</co2>
+        <illuminance>512.19</illuminance>
+        <temperature>24.96</temperature>
+        <sound>61.76</sound>
+        <voltage>229.932</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:25:38.213216</time>
+    </entry>
+    <entry>
+        <co2>1276.0</co2>
+        <illuminance>334.04</illuminance>
+        <temperature>24.97</temperature>
+        <sound>66.62</sound>
+        <voltage>229.639</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:25:43.844930</time>
+    </entry>
+    <entry>
+        <co2>1273.0</co2>
+        <illuminance>334.04</illuminance>
+        <temperature>24.98</temperature>
+        <sound>64.13</sound>
+        <voltage>229.736</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:25:49.375687</time>
+    </entry>
+    <entry>
+        <co2>1271.0</co2>
+        <illuminance>333.65</illuminance>
+        <temperature>25.0</temperature>
+        <sound>60.36</sound>
+        <voltage>229.51</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:25:55.109113</time>
+    </entry>
+    <entry>
+        <co2>1269.0</co2>
+        <illuminance>333.26</illuminance>
+        <temperature>24.97</temperature>
+        <sound>48.7</sound>
+        <voltage>229.767</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:26:00.639988</time>
+    </entry>
+    <entry>
+        <co2>1267.0</co2>
+        <illuminance>334.24</illuminance>
+        <temperature>25.0</temperature>
+        <sound>62.92</sound>
+        <voltage>229.395</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:26:06.169751</time>
+    </entry>
+    <entry>
+        <co2>1265.0</co2>
+        <illuminance>333.46</illuminance>
+        <temperature>25.01</temperature>
+        <sound>65.77</sound>
+        <voltage>229.238</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:26:11.697883</time>
+    </entry>
+    <entry>
+        <co2>1263.0</co2>
+        <illuminance>333.65</illuminance>
+        <temperature>25.03</temperature>
+        <sound>61.34</sound>
+        <voltage>229.281</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:26:16.920221</time>
+    </entry>
+    <entry>
+        <co2>1261.0</co2>
+        <illuminance>334.43</illuminance>
+        <temperature>25.03</temperature>
+        <sound>57.97</sound>
+        <voltage>229.302</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:26:22.040241</time>
+    </entry>
+    <entry>
+        <co2>1259.0</co2>
+        <illuminance>335.21</illuminance>
+        <temperature>25.01</temperature>
+        <sound>55.45</sound>
+        <voltage>229.53</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:26:27.057549</time>
+    </entry>
+    <entry>
+        <co2>1259.0</co2>
+        <illuminance>335.6</illuminance>
+        <temperature>25.03</temperature>
+        <sound>61.22</sound>
+        <voltage>229.619</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:26:34.020762</time>
+    </entry>
+    <entry>
+        <co2>1258.0</co2>
+        <illuminance>335.6</illuminance>
+        <temperature>25.06</temperature>
+        <sound>60.29</sound>
+        <voltage>229.485</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:26:39.140970</time>
+    </entry>
+    <entry>
+        <co2>1256.0</co2>
+        <illuminance>336.0</illuminance>
+        <temperature>25.06</temperature>
+        <sound>50.63</sound>
+        <voltage>229.649</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:26:45.079828</time>
+    </entry>
+    <entry>
+        <co2>1252.0</co2>
+        <illuminance>335.6</illuminance>
+        <temperature>25.06</temperature>
+        <sound>59.94</sound>
+        <voltage>229.581</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:26:50.814203</time>
+    </entry>
+    <entry>
+        <co2>1250.0</co2>
+        <illuminance>335.6</illuminance>
+        <temperature>25.07</temperature>
+        <sound>54.88</sound>
+        <voltage>229.341</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:26:56.241508</time>
+    </entry>
+    <entry>
+        <co2>1247.0</co2>
+        <illuminance>335.6</illuminance>
+        <temperature>25.06</temperature>
+        <sound>64.42</sound>
+        <voltage>229.673</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:27:02.078610</time>
+    </entry>
+    <entry>
+        <co2>1246.0</co2>
+        <illuminance>336.0</illuminance>
+        <temperature>25.08</temperature>
+        <sound>57.56</sound>
+        <voltage>229.427</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:27:07.607923</time>
+    </entry>
+    <entry>
+        <co2>1244.0</co2>
+        <illuminance>336.39</illuminance>
+        <temperature>25.08</temperature>
+        <sound>48.78</sound>
+        <voltage>229.704</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:27:13.138904</time>
+    </entry>
+    <entry>
+        <co2>1242.0</co2>
+        <illuminance>336.0</illuminance>
+        <temperature>25.08</temperature>
+        <sound>55.7</sound>
+        <voltage>229.732</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:27:18.769064</time>
+    </entry>
+    <entry>
+        <co2>1241.0</co2>
+        <illuminance>336.39</illuminance>
+        <temperature>25.1</temperature>
+        <sound>46.1</sound>
+        <voltage>229.899</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:27:24.401279</time>
+    </entry>
+    <entry>
+        <co2>1239.0</co2>
+        <illuminance>336.0</illuminance>
+        <temperature>25.11</temperature>
+        <sound>59.57</sound>
+        <voltage>229.488</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:27:30.033248</time>
+    </entry>
+    <entry>
+        <co2>1237.0</co2>
+        <illuminance>335.6</illuminance>
+        <temperature>25.11</temperature>
+        <sound>57.73</sound>
+        <voltage>229.598</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:27:35.153261</time>
+    </entry>
+    <entry>
+        <co2>1235.0</co2>
+        <illuminance>336.0</illuminance>
+        <temperature>25.13</temperature>
+        <sound>61.93</sound>
+        <voltage>229.63</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:27:41.092014</time>
+    </entry>
+    <entry>
+        <co2>1234.0</co2>
+        <illuminance>336.39</illuminance>
+        <temperature>25.11</temperature>
+        <sound>70.53</sound>
+        <voltage>229.7</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:27:46.621848</time>
+    </entry>
+    <entry>
+        <co2>1232.0</co2>
+        <illuminance>336.39</illuminance>
+        <temperature>25.13</temperature>
+        <sound>66.68</sound>
+        <voltage>229.087</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:27:52.255734</time>
+    </entry>
+    <entry>
+        <co2>1231.0</co2>
+        <illuminance>336.78</illuminance>
+        <temperature>25.13</temperature>
+        <sound>58.11</sound>
+        <voltage>229.089</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:27:57.783421</time>
+    </entry>
+    <entry>
+        <co2>1229.0</co2>
+        <illuminance>336.78</illuminance>
+        <temperature>25.16</temperature>
+        <sound>62.21</sound>
+        <voltage>229.306</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:28:03.415258</time>
+    </entry>
+    <entry>
+        <co2>1228.0</co2>
+        <illuminance>336.39</illuminance>
+        <temperature>25.16</temperature>
+        <sound>53.55</sound>
+        <voltage>229.15</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:28:09.047360</time>
+    </entry>
+    <entry>
+        <co2>1227.0</co2>
+        <illuminance>264.58</illuminance>
+        <temperature>25.16</temperature>
+        <sound>64.88</sound>
+        <voltage>229.082</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:28:14.576404</time>
+    </entry>
+    <entry>
+        <co2>1225.0</co2>
+        <illuminance>312.39</illuminance>
+        <temperature>25.16</temperature>
+        <sound>58.73</sound>
+        <voltage>229.135</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:28:20.210721</time>
+    </entry>
+    <entry>
+        <co2>1222.0</co2>
+        <illuminance>315.12</illuminance>
+        <temperature>25.18</temperature>
+        <sound>52.4</sound>
+        <voltage>229.148</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:28:25.842477</time>
+    </entry>
+    <entry>
+        <co2>1222.0</co2>
+        <illuminance>336.39</illuminance>
+        <temperature>25.18</temperature>
+        <sound>59.32</sound>
+        <voltage>229.204</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:28:30.960658</time>
+    </entry>
+    <entry>
+        <co2>1222.0</co2>
+        <illuminance>301.46</illuminance>
+        <temperature>25.19</temperature>
+        <sound>58.36</sound>
+        <voltage>229.05</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:28:36.080599</time>
+    </entry>
+    <entry>
+        <co2>1222.0</co2>
+        <illuminance>315.12</illuminance>
+        <temperature>25.19</temperature>
+        <sound>62.01</sound>
+        <voltage>228.807</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:28:41.098294</time>
+    </entry>
+    <entry>
+        <co2>1222.0</co2>
+        <illuminance>329.56</illuminance>
+        <temperature>25.19</temperature>
+        <sound>63.44</sound>
+        <voltage>228.865</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:28:48.061445</time>
+    </entry>
+    <entry>
+        <co2>1222.0</co2>
+        <illuminance>336.0</illuminance>
+        <temperature>25.22</temperature>
+        <sound>53.99</sound>
+        <voltage>228.965</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:28:53.182235</time>
+    </entry>
+    <entry>
+        <co2>1222.0</co2>
+        <illuminance>334.82</illuminance>
+        <temperature>25.21</temperature>
+        <sound>55.94</sound>
+        <voltage>228.775</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:28:59.120677</time>
+    </entry>
+    <entry>
+        <co2>1220.0</co2>
+        <illuminance>326.04</illuminance>
+        <temperature>25.22</temperature>
+        <sound>62.58</sound>
+        <voltage>229.074</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:29:04.957171</time>
+    </entry>
+    <entry>
+        <co2>1219.0</co2>
+        <illuminance>326.04</illuminance>
+        <temperature>25.22</temperature>
+        <sound>66.45</sound>
+        <voltage>229.036</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:29:10.589046</time>
+    </entry>
+    <entry>
+        <co2>1217.0</co2>
+        <illuminance>332.29</illuminance>
+        <temperature>25.23</temperature>
+        <sound>53.8</sound>
+        <voltage>229.072</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:29:16.119806</time>
+    </entry>
+    <entry>
+        <co2>1214.0</co2>
+        <illuminance>329.56</illuminance>
+        <temperature>25.23</temperature>
+        <sound>56.28</sound>
+        <voltage>229.014</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:29:21.648058</time>
+    </entry>
+    <entry>
+        <co2>1212.0</co2>
+        <illuminance>328.0</illuminance>
+        <temperature>25.22</temperature>
+        <sound>65.67</sound>
+        <voltage>228.809</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:29:27.280249</time>
+    </entry>
+    <entry>
+        <co2>1208.0</co2>
+        <illuminance>333.26</illuminance>
+        <temperature>25.23</temperature>
+        <sound>56.13</sound>
+        <voltage>228.866</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:29:32.809907</time>
+    </entry>
+    <entry>
+        <co2>1207.0</co2>
+        <illuminance>336.78</illuminance>
+        <temperature>25.25</temperature>
+        <sound>59.46</sound>
+        <voltage>229.016</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:29:38.032331</time>
+    </entry>
+    <entry>
+        <co2>1204.0</co2>
+        <illuminance>337.56</illuminance>
+        <temperature>25.25</temperature>
+        <sound>55.42</sound>
+        <voltage>229.025</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:29:43.972230</time>
+    </entry>
+    <entry>
+        <co2>1202.0</co2>
+        <illuminance>337.56</illuminance>
+        <temperature>25.26</temperature>
+        <sound>56.34</sound>
+        <voltage>229.071</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:29:49.603297</time>
+    </entry>
+    <entry>
+        <co2>1200.0</co2>
+        <illuminance>337.56</illuminance>
+        <temperature>25.25</temperature>
+        <sound>55.51</sound>
+        <voltage>229.002</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:29:55.132912</time>
+    </entry>
+    <entry>
+        <co2>1198.0</co2>
+        <illuminance>337.56</illuminance>
+        <temperature>25.28</temperature>
+        <sound>58.19</sound>
+        <voltage>229.302</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:30:00.764867</time>
+    </entry>
+    <entry>
+        <co2>1195.0</co2>
+        <illuminance>336.39</illuminance>
+        <temperature>25.29</temperature>
+        <sound>53.39</sound>
+        <voltage>229.477</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:30:06.194247</time>
+    </entry>
+    <entry>
+        <co2>1193.0</co2>
+        <illuminance>337.56</illuminance>
+        <temperature>25.25</temperature>
+        <sound>46.74</sound>
+        <voltage>229.974</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:30:12.028825</time>
+    </entry>
+    <entry>
+        <co2>1189.0</co2>
+        <illuminance>337.17</illuminance>
+        <temperature>25.28</temperature>
+        <sound>62.01</sound>
+        <voltage>229.981</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:30:17.456956</time>
+    </entry>
+    <entry>
+        <co2>1187.0</co2>
+        <illuminance>337.17</illuminance>
+        <temperature>25.29</temperature>
+        <sound>54.0</sound>
+        <voltage>229.962</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:30:23.096718</time>
+    </entry>
+    <entry>
+        <co2>1184.0</co2>
+        <illuminance>335.21</illuminance>
+        <temperature>25.3</temperature>
+        <sound>68.98</sound>
+        <voltage>229.765</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:30:28.114971</time>
+    </entry>
+    <entry>
+        <co2>1184.0</co2>
+        <illuminance>336.0</illuminance>
+        <temperature>25.29</temperature>
+        <sound>66.14</sound>
+        <voltage>229.696</voltage>
+        <host>24</host>
+        <time>2023-11-08 15:30:33.124080</time>
+    </entry>
+</data>
