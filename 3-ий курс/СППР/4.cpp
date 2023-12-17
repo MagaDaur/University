@@ -222,14 +222,14 @@ int main()
 
     for(int i = 0; i < k; i++)
     {
+        std::cout << "Итерация №" << i + 1 << std::endl;
         while(std::count_if(std::cbegin(ants), std::cend(ants), [](const Ant& ant) { return ant.path.size() == max_cities + 1; }) < max_ants)
             for(auto& ant : ants)
                 if(ant.Simulate())
                     UpdateTrails();
 
-        //if(i == k - 1)
-            for(const auto& ant : ants)
-                std::cout << ant << std::endl;
+        for(const auto& ant : ants)
+            std::cout << ant << std::endl;
         
         std::cout << "\n\n";
 
