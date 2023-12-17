@@ -61,7 +61,7 @@ int f(const std::vector<int>& path, const std::vector<std::vector<int>> &l)
 int main()
 {
     system("clear");
-    //srand(time(0));
+    srand(time(0));
 
     const int n = 10;
     const int k = 20;
