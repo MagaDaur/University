@@ -214,7 +214,7 @@ void UpdateTrails()
 int main()
 {
     system("clear");
-    //srand(time(0));
+    srand(time(0));
 
     const int k = 10;
 
