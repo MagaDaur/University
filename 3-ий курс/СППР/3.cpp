@@ -85,13 +85,14 @@ Velocity CalcVelocity(double W, double C, Point& point, const Point* best_point)
 
 int main()
 {
+    system("clear");
     srand(time(0));
 
-    const double W = 0.5;
+    const double W = 0.4;
     const auto C = 2;
 
     const int n = 10;
-    const int k = 1000;
+    const int k = 100;
 
     auto points = GeneratePoints(n);
     global_min = &points[0];
