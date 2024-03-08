@@ -6,7 +6,7 @@
 
 double f(double x, double y)
 {
-    return pow(x * x + y - 11, 2) + pow(x + y * y - 7, 2);
+    return 2 * x * x - 2 * x * y + 3 * y * y + x - 3 * y;
 }
 
 struct Vector2D
@@ -117,7 +117,7 @@ int main()
     constexpr int N = 10;
     constexpr int M = 30;
 
-    const int K = 20;
+    const int K = 30;
 
     auto colony = Bee::CreateColony(S, 50);
 
