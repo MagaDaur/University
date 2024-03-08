@@ -45,7 +45,7 @@ double rn(double min, double max) {return min + (max - min) * rn(); }
 
 double f(double x, double y)
 {
-    return pow(x * x + y - 11, 2) * pow(x + y * y - 7, 2);
+    return 2 * x * x - 2 * x * y + 3 * y * y + x - 3 * y;
 }
 
 std::vector<Velocity> GenerateVelocity(int n)
