@@ -4,6 +4,10 @@
 #include <numeric>
 #include <iomanip>
 
+#define DFX 0.001f
+
+typedef std::vector<std::vector<float>> matrix;
+
 float f(float, float);
 
 struct Point

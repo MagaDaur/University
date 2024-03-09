@@ -1,5 +1,4 @@
 #include "S_Point.hpp"
-#include <drogon/HttpAppFramework.h>
 
 float f(float x, float y)
 {
@@ -13,7 +12,8 @@ Point get_center(const std::vector<Point>& points, const std::vector<Point>::ite
         if(it != exclude)
             center += *it;
 
-    center *= 1.f / (points.size() - 1);
+    if(exclude == points.end()) center *= 1.f / points.size();
+    else center *= 1.f / (points.size() - 1.f);
 
     return center;
 }
@@ -25,22 +25,19 @@ float sigma(std::vector<Point>& points)
 
     for(auto& p : points)
         sum += powf(p.calc() - center_value, 2.f);
-    sum = sqrtf(sum / (points.size() + 1));
-    
 
-    return sum;
+    return sqrtf(sum / points.size());
 }
 
 int main()
 {
     system("clear");
 
-    const int max_k = 35;
     int k = 0;
 
     const int n = 2;
     const float m = 0.75f;
-    const float eps = 0.01f;
+    const float eps = 0.00001f;
 
     const float b = 1.85f;
     const float y = 0.1f;
@@ -51,23 +48,23 @@ int main()
     std::vector<Point> points;
     points.push_back({ 0, 0 });
 
-    Point* base_point = &points.back();
+    Point& base_point = points[0];
 
-    Point point_1{base_point->x + o1, base_point->y + o2};
-    Point point_2{base_point->x + o2, base_point->y + o1};
+    Point point_1{base_point.x + o1, base_point.y + o2};
+    Point point_2{base_point.x + o2, base_point.y + o1};
 
     points.push_back(point_1);
     points.push_back(point_2);
 
-    while(sigma(points) > eps && ++k < max_k)
+    while(sigma(points) > eps)
     {
         std::sort(points.begin(), points.end(), [](const Point& a, const Point& b) { return a > b; });
 
-        std::cout << "Iter #" << k << std::endl << std::endl;
+        std::cout << std::setfill(' ') << "Iter #" << k++ << std::endl << std::endl;
         std::cout << std::setw(20) << "x1" << std::setw(20) << "x2" << std::setw(20) << "f(x1, x2)" << std::endl;
         for(const auto point : points)
             std::cout << std::setw(20) << point.x << std::setw(20) << point.y << std::setw(20) << point.calc() << std::endl;
-        std::cout << std::endl;
+        std::cout << std::setfill('-') << std::setw(82) << " " << std::endl;
 
         auto best_point = points.end() - 1;
         auto good_point = best_point - 1;
@@ -82,7 +79,6 @@ int main()
         {
             if(refracted_point < *best_point)
             {
-                
                 if(extended_point < refracted_point)
                 {
                     points.erase(worst_point);
@@ -91,8 +87,7 @@ int main()
                     continue;
                 }
                 else if(*good_point < refracted_point && refracted_point < *worst_point)
-                {
-                    
+                {   
                     if(shrinked_point < refracted_point)
                     {
                         points.erase(worst_point);
