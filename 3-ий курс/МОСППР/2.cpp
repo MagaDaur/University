@@ -1,47 +1,46 @@
 #include "S_Point.hpp"
 
-float f(float x, float y)
+//Vector of partial derivatives ( gradient )
+Point df_dx_dy(const Point& p)
 {
-    return 2 * x * x - 2 * x * y + 3 * y * y + x - 3 * y;
-}
+    double dx = ( f(p.x + LIM_0, p.y) - f(p.x, p.y) ) / LIM_0;
+    double dy = ( f(p.x, p.y + LIM_0) - f(p.x, p.y) ) / LIM_0;
 
-Point grad(const Point& p)
-{
-    float dx = 4.f * p.x - 2.f * p.y + 1.f;
-    float dy = 6.f * p.y - 2.f * p.x - 3.f;
     return {dx, dy};
 }
 
-float norm(const Point& p)
+//Vector of partial second derivatives
+Point ddf_dx_dy(const Point& p)
 {
-    Point p_grad = grad(p);
-    return sqrtf(p_grad.x * p_grad.x + p_grad.y * p_grad.y);
-}
+    double u1_x = f(p.x + LIM_0, p.y);
+    double u3_x = f(p.x - LIM_0, p.y);
 
-Point second_deriv(const Point& p)
-{
-    float u1_x = f(p.x + DFX, p.y);
-    float u3_x = f(p.x - DFX, p.y);
+    double u1_y = f(p.x, p.y + LIM_0);
+    double u3_y = f(p.x, p.y - LIM_0);
 
-    float u1_y = f(p.x, p.y + DFX);
-    float u3_y = f(p.x, p.y - DFX);
+    double u2 = f(p.x, p.y);
 
-    float u2 = f(p.x, p.y);
-
-    float ddx = (u1_x - 2 * u2 + u3_x) / (DFX * DFX);
-    float ddy = (u1_y - 2 * u2 + u3_y) / (DFX * DFX);
+    double ddx = (u1_x - 2.0 * u2 + u3_x) / (LIM_0 * LIM_0);
+    double ddy = (u1_y - 2.0 * u2 + u3_y) / (LIM_0 * LIM_0);
 
     return {ddx, ddy};
 }
 
-float second_deriv_both(const Point& p)
+//Mixed second derivative
+double ddf_dxdy(const Point& p)
 {
-    float u1 = f(p.x, p.y);
-    float u2 = f(p.x - DFX, p.y);
-    float u3 = f(p.x, p.y - DFX);
-    float u4 = f(p.x - DFX, p.y - DFX);
+    double u1 = f(p.x, p.y);
+    double u2 = f(p.x - LIM_0, p.y);
+    double u3 = f(p.x, p.y - LIM_0);
+    double u4 = f(p.x - LIM_0, p.y - LIM_0);
 
-    return (u1 - u2 - u3 + u4) / (DFX * DFX);
+    return (u1 - u2 - u3 + u4) / (LIM_0 * LIM_0);
+}
+
+double norm(const Point& p)
+{
+    Point vec_grad = df_dx_dy(p);
+    return sqrt(vec_grad.x * vec_grad.x + vec_grad.y * vec_grad.y);
 }
 
 matrix matrix_multiply(matrix a, matrix b)
@@ -65,35 +64,33 @@ matrix matrix_multiply(matrix a, matrix b)
     return res;
 }
 
-float get_step(const Point& p)
+double get_step(const Point& p)
 {
-    auto p_grad = grad(p);
-    auto sec_deriv = second_deriv(p);
+    auto vec_grad = df_dx_dy(p);
+    auto vec_ddf = ddf_dx_dy(p);
+    auto mixed_ddf = ddf_dxdy(p);
 
     matrix gesse_matrix = 
     {
-        {sec_deriv.x, second_deriv_both(p)},
-        {second_deriv_both(p), sec_deriv.y},
+        {vec_ddf.x, mixed_ddf},
+        {mixed_ddf, vec_ddf.y},
     };
 
     matrix grad_matrix_hor =
     {
-        {p_grad.x, p_grad.y},
+        {vec_grad.x, vec_grad.y},
     };
 
     matrix grad_matrix_vert =
     {
-        {p_grad.x},
-        {p_grad.y},
+        {vec_grad.x},
+        {vec_grad.y},
     };
 
-    matrix tmp = matrix_multiply(gesse_matrix, grad_matrix_vert);
-    tmp = matrix_multiply(grad_matrix_hor, tmp);
+    matrix num = matrix_multiply(grad_matrix_hor, grad_matrix_vert);
+    matrix denom = matrix_multiply(grad_matrix_hor, matrix_multiply(gesse_matrix, grad_matrix_vert));
 
-    float val = tmp[0][0];
-
-    tmp = matrix_multiply(grad_matrix_hor, grad_matrix_vert);
-    return tmp[0][0] / val;
+    return num[0][0] / denom [0][0];
 }
 
 int main()
@@ -102,20 +99,18 @@ int main()
 
     int k = 0;
     
-    const float eps = 0.00001;
+    const double eps = LIM_0;
 
-    Point point{1, 1};
+    Point point{ 1, 1 };
 
     while(norm(point) > eps)
     {
-        float h = get_step(point);
+        Point vec_grad = df_dx_dy(point);
+        point -= get_step(point) * vec_grad;
 
-        Point p_grad = grad(point);
-        point -= h * p_grad;
-
-        std::cout << std::setfill(' ') << std::setw(20) << ("Iter# " + std::to_string(k++)) << std::setw(20) << "x" << std::setw(20) << "y" << std::setw(20) << "f(x, y)"<< std::endl << std::endl;
+        std::cout << std::setfill(' ') << std::setw(20) << ("Iter# " + std::to_string(k++)) << std::setw(20) << "x1" << std::setw(20) << "x2" << std::setw(20) << "f(x1, x2)"<< std::endl << std::endl;
         std::cout << std::setw(20) << "point" << std::setw(20) << point.x << std::setw(20) << point.y << std::setw(20) << point.calc() << std::endl;
-        std::cout << std::setw(20) << "gradient" << std::setw(20) << p_grad.x << std::setw(20) << p_grad.y << std::setw(20) << "---" << std::endl;
+        std::cout << std::setw(20) << "gradient" << std::setw(20) << vec_grad.x << std::setw(20) << vec_grad.y << std::setw(20) << "---" << std::endl;
         std::cout << std::setfill('-') << std::setw(82) << " " << std::endl;
     }
 

@@ -4,20 +4,23 @@
 #include <numeric>
 #include <iomanip>
 
-#define DFX 0.001f
+#define LIM_0 sqrt(__DBL_EPSILON__)
 
-typedef std::vector<std::vector<float>> matrix;
+typedef std::vector<std::vector<double>> matrix;
 
-float f(float, float);
+double f(double x1, double x2)
+{
+    return 2.0 * x1 * x1 - 2.0 * x1 * x2 + 3.0 * x2 * x2 + x1 - 3.0 * x2;
+}
 
 struct Point
 {
-    float x, y;
+    double x, y;
 
     Point() : x(0), y(0) {};
-    Point(float x, float y) : x(x), y(y) {};
+    Point(double x, double y) : x(x), y(y) {};
 
-    float calc() const { *(const_cast<float*>(&val)) = f(x, y); return val; }
+    double calc() const { *(const_cast<double*>(&val)) = f(x, y); return val; }
 
     friend Point operator-(const Point& p, const Point& other) 
     {
@@ -28,11 +31,11 @@ struct Point
         return Point(p.x + other.x, p.y + other.y);
     }
     
-    friend Point operator*(const Point& p, float mult)
+    friend Point operator*(const Point& p, double mult)
     {
         return Point(p.x * mult, p.y * mult);
     }
-    friend Point operator*(float mult, const Point& p)
+    friend Point operator*(double mult, const Point& p)
     {
         return Point(p.x * mult, p.y * mult);
     }
@@ -48,7 +51,7 @@ struct Point
         y += other.y;
     }
     
-    void operator*=(float mult)
+    void operator*=(double mult)
     {
         x *= mult;
         y *= mult;
@@ -64,5 +67,5 @@ struct Point
         return a.calc() > b.calc();
     }
 private:
-    float val; // for debug only!
+    double val; // for debug only!
 };
