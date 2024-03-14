@@ -86,7 +86,14 @@
     "iterator": "cpp",
     "memory_resource": "cpp",
     "utility": "cpp",
-    "stop_token": "cpp"
+    "stop_token": "cpp",
+    "execution": "cpp",
+    "codecvt": "cpp",
+    "format": "cpp",
+    "numbers": "cpp",
+    "semaphore": "cpp",
+    "span": "cpp",
+    "cinttypes": "cpp"
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",

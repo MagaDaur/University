@@ -6,11 +6,39 @@
 
 #define LIM_0 sqrtf(__FLT_EPSILON__)
 
-typedef std::vector<std::vector<double>> matrix;
+struct Point;
 
 double f(double x1, double x2)
 {
     return 2.0 * x1 * x1 - 2.0 * x1 * x2 + 3.0 * x2 * x2 + x1 - 3.0 * x2;
+}
+
+namespace Matrix
+{
+    typedef std::vector<std::vector<double>> type;
+
+    double det(const type&);
+
+    type multiply(const type&, const type&);
+    type transpose(const type&);
+    type cofactor(const type&);
+    type inverse(const type&);
+
+    type gesse(const Point&);
+}
+
+Matrix::type operator*(double mult, const Matrix::type& m);
+
+namespace df
+{
+    //Vector of partial derivatives ( gradient )
+    Point first_partial(const Point& p);
+
+    //Vector of partial second derivatives
+    Point second_partial(const Point& p);
+
+    //Mixed second derivative
+    double second_mixed(const Point& p);
 }
 
 struct Point
@@ -45,6 +73,13 @@ struct Point
         x -= other.x;
         y -= other.y;
     }
+
+    // void operator-=(const Matrix::type& other)
+    // {
+    //     x -= other[0][0];
+    //     y -= other[1][0];
+    // }
+
     void operator+=(const Point& other)
     {
         x += other.x;
@@ -69,3 +104,149 @@ struct Point
 private:
     double val; // for debug only!
 };
+
+//Vector of partial derivatives ( gradient )
+Point df::first_partial(const Point& p)
+{
+    double dx = ( f(p.x + LIM_0, p.y) - f(p.x, p.y) ) / LIM_0;
+    double dy = ( f(p.x, p.y + LIM_0) - f(p.x, p.y) ) / LIM_0;
+
+    return {dx, dy};
+}
+
+//Vector of partial second derivatives
+Point df::second_partial(const Point& p)
+{
+    double u1_x = f(p.x + LIM_0, p.y);
+    double u3_x = f(p.x - LIM_0, p.y);
+
+    double temp = u1_x + u3_x;
+
+    double u1_y = f(p.x, p.y + LIM_0);
+    double u3_y = f(p.x, p.y - LIM_0);
+
+    double u2 = f(p.x, p.y);
+
+    double ddx = (u1_x - 2.0 * u2 + u3_x) / (LIM_0 * LIM_0);
+    double ddy = (u1_y - 2.0 * u2 + u3_y) / (LIM_0 * LIM_0);
+
+    return {ddx, ddy};
+}
+
+//Mixed second derivative
+double df::second_mixed(const Point& p)
+{
+    double u1 = f(p.x, p.y);
+    double u2 = f(p.x - LIM_0, p.y);
+    double u3 = f(p.x, p.y - LIM_0);
+    double u4 = f(p.x - LIM_0, p.y - LIM_0);
+
+    return (u1 - u2 - u3 + u4) / (LIM_0 * LIM_0);
+}
+
+Matrix::type Matrix::multiply(const type& a, const type& b)
+{
+    type res(a.size());
+    for(int i = 0; i < a.size(); i++)
+        res[i].resize(b.size());
+
+    for(int i = 0; i < a.size(); i++)
+    {
+        for(int j = 0; j < b[0].size(); j++)
+        {
+            res[i][j] = 0;
+            for(int k = 0; k < a[0].size(); k++)
+            {
+                res[i][j] += a[i][k] * b[k][j];
+            }
+        }
+    }
+
+    return res;
+}
+
+Matrix::type Matrix::gesse(const Point& p)
+{
+    auto vec_ddf = df::second_partial(p);
+    auto mixed_ddf = df::second_mixed(p);
+
+    return 
+    {
+        {vec_ddf.x, mixed_ddf},
+        {mixed_ddf, vec_ddf.y},
+    };
+}
+
+double Matrix::det(const type& m)
+{
+    return m[0][0] * m[1][1] - m[0][1] * m[1][0];
+}
+
+Matrix::type Matrix::transpose(const type& m)
+{
+    return 
+    {
+        {m[0][0], m[1][0]},
+        {m[0][1], m[1][1]},
+    };
+}
+
+Matrix::type Matrix::cofactor(const type& m)
+{
+    return
+    {
+        {m[1][1], -m[0][1]},
+        {-m[1][0], m[0][0]},
+    };
+}
+
+Matrix::type Matrix::inverse(const type& m)
+{
+    auto d = det(m);
+    auto t = transpose(m);
+    auto c = cofactor(t);
+
+    return
+    {
+        {c[0][0] / d, c[0][1] / d},
+        {c[1][0] / d, c[1][1] / d},
+    };
+}
+
+Matrix::type operator*(double mult, const Matrix::type& m)
+{
+    Matrix::type ret = m;
+    for(auto& row : ret)
+        for(auto& val : row)
+            val *= mult;
+        
+    return ret;
+}
+
+double norm(const Point& p)
+{
+    Point vec_grad = df::first_partial(p);
+    return sqrt(vec_grad.x * vec_grad.x + vec_grad.y * vec_grad.y);
+}
+
+double get_step(const Point& p)
+{
+    auto vec_grad = df::first_partial(p);
+    auto mat_gesse = Matrix::gesse(p);
+
+    Matrix::type grad_matrix_hor =
+    {
+        {vec_grad.x, vec_grad.y},
+    };
+
+    Matrix::type grad_matrix_vert =
+    {
+        {vec_grad.x},
+        {vec_grad.y},
+    };
+
+    Matrix::type num = Matrix::multiply(grad_matrix_hor, grad_matrix_vert);
+    Matrix::type denom = Matrix::multiply(grad_matrix_hor, Matrix::multiply(mat_gesse, grad_matrix_vert));
+
+    return num[0][0] / denom [0][0];
+}
