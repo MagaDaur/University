@@ -40,7 +40,7 @@ int main()
     const double o1 = m * ( (sqrt(n + 1) - 1) / (n * M_SQRT2) );
     const double o2 = m * ( (sqrt(n + 1) + n - 1) / (n * M_SQRT2) );
 
-    std::vector<Point> points = { { 1, 1 } };
+    std::vector<Point> points = { { 100, 100 } };
     points.push_back({points[0].x + o1, points[0].y + o2});
     points.push_back({points[0].x + o2, points[0].y + o1});
 

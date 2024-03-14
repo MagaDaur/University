@@ -15,6 +15,8 @@ Point ddf_dx_dy(const Point& p)
     double u1_x = f(p.x + LIM_0, p.y);
     double u3_x = f(p.x - LIM_0, p.y);
 
+    double temp = u1_x + u3_x;
+
     double u1_y = f(p.x, p.y + LIM_0);
     double u3_y = f(p.x, p.y - LIM_0);
 
@@ -101,7 +103,7 @@ int main()
     
     const double eps = LIM_0;
 
-    Point point{ 1, 1 };
+    Point point{ 100, 100 };
 
     while(norm(point) > eps)
     {

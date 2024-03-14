@@ -4,7 +4,7 @@
 #include <numeric>
 #include <iomanip>
 
-#define LIM_0 sqrt(__DBL_EPSILON__)
+#define LIM_0 sqrtf(__FLT_EPSILON__)
 
 typedef std::vector<std::vector<double>> matrix;
 
