@@ -17,6 +17,8 @@ namespace Matrix
 {
     typedef std::vector<std::vector<double>> type;
 
+    const type Unit = { {1, 0}, {0, 1} };
+
     double det(const type&);
 
     type multiply(const type&, const type&);
@@ -26,8 +28,6 @@ namespace Matrix
 
     type gesse(const Point&);
 }
-
-Matrix::type operator*(double mult, const Matrix::type& m);
 
 namespace df
 {
@@ -211,16 +211,6 @@ Matrix::type Matrix::inverse(const type& m)
         {c[0][0] / d, c[0][1] / d},
         {c[1][0] / d, c[1][1] / d},
     };
-}
-
-Matrix::type operator*(double mult, const Matrix::type& m)
-{
-    Matrix::type ret = m;
-    for(auto& row : ret)
-        for(auto& val : row)
-            val *= mult;
-        
-    return ret;
 }
 
 double norm(const Point& p)

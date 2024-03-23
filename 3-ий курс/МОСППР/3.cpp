@@ -3,33 +3,32 @@
 Point get_raphson_step(const Point& p)
 {
     auto df = df::first_partial(p);
-
-    auto gesse = Matrix::gesse(p);
-    auto gesse_det = Matrix::det(gesse);
-    
-    if(gesse_det < 0) 
-        gesse =
-        {
-            { 1, 0 },
-            { 0, 1 }
-        };
-
     auto step = get_step(p);
-    auto gesse_inv = Matrix::inverse(gesse);
 
-    Matrix::type grad_matrix_hor =
+    Matrix::type grad_matrix_vert =
     {
         {df.x},
         {df.y},
     };
 
-    auto matrix_step = step * Matrix::multiply(gesse_inv, grad_matrix_hor);
-    return { matrix_step[0][0], matrix_step[1][0] };
+    auto gesse = Matrix::gesse(p);
+    auto gesse_inv = Matrix::inverse(gesse);
+    auto test = Matrix::det(gesse);
+    if(Matrix::det(gesse) < 0)
+        gesse_inv = Matrix::Unit;
+
+    for(auto& row : gesse_inv)
+        for(auto& val : row)
+            val *= step;
+
+    auto patrial_step = Matrix::multiply(gesse_inv, grad_matrix_vert);
+
+    return { patrial_step[0][0], patrial_step[1][0] };
 }
 
 int main()
 {
-    Point point = {100, 100};
+    Point point = {1, 1};
 
     const double eps = LIM_0;
     int k = 0;
