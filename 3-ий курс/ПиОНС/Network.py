@@ -2,8 +2,7 @@ import numpy as np
 import pandas as pd
 import math
 import sys
-import random
-from matplotlib import pyplot as plt
+import cv2
 
 def out(net):
     return 1 / (1 + math.exp(-net))
@@ -74,10 +73,9 @@ class Network:
         return error
 
 
-train_data = pd.DataFrame(open(sys.path[0] + "/mnist_train.csv"))
-test_data = pd.DataFrame(open(sys.path[0] + "/mnist_test.csv"))
+train_data = pd.read_csv(sys.path[0] + "/train.csv")
 
-network = Network([28 * 28, 16, 16, 10])
+network = Network([28 * 28, 16, 16, 1])
 
 for i in range(1, len(train_data.index)):
     train = train_data.iloc[i][0][:-1].split(',')
@@ -89,35 +87,3 @@ for i in range(1, len(train_data.index)):
     network.feed(train[1:])
 
     network.backward([1. if idx == train[0] else 0. for idx in range(10)])
-
-for i in range(len(network.weights)):
-    np.savetxt(f'weights_{i}.csv', network.weights[i])
-
-test_idxs = list(range(1, len(test_data.index)))
-random.shuffle(test_idxs)
-
-for i in test_idxs:
-    test = test_data.iloc[i][0][:-1].split(',')
-    test[0] = int(float(test[0]))
-
-    inputs = []
-    image = []
-
-    for j in range(1, len(test)):
-        image.append(int(test[j]))
-
-    image = np.array(image).reshape((28, 28))
-
-    for j in range(1, len(test)):
-        inputs.append(float(test[j]) / 255)
-
-    network.feed(inputs)
-
-    network.forward()
-    output = network.output()
-
-    print(f'{test[0]}: I thinks it\'s {np.argmax(output)} by {output[np.argmax(output)] * 100:.2f}%')
-
-    plt.imshow(image, cmap='grey')
-    plt.show()
-
