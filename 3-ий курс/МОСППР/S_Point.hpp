@@ -5,12 +5,23 @@
 #include <iomanip>
 
 #define LIM_0 sqrtf(__FLT_EPSILON__)
+#define BASE_POINT Point(10, 10)
 
 struct Point;
 
 double f(double x1, double x2)
 {
-    return 2.0 * x1 * x1 - 2.0 * x1 * x2 + 3.0 * x2 * x2 + x1 - 3.0 * x2;
+    //5
+    //return 4 * x1 * x1 + 4 * x1 * x2 + 6 * x2 * x2 - 17 * x1;
+
+    //6
+    //return 2.0 * x1 * x1 - 2.0 * x1 * x2 + 3.0 * x2 * x2 + x1 - 3.0 * x2;
+
+    //11
+    //return x1 * x1 + 2 * x2 * x2 + exp(x1 * x1 + x2 * x2) - x1 + 2 * x2;
+
+    //8
+    return x1 * x1 - 2 * x1 * x2 + 6 * x2 * x2 + x1 - x2;
 }
 
 namespace Matrix
@@ -195,16 +206,15 @@ Matrix::type Matrix::cofactor(const type& m)
 {
     return
     {
-        {m[1][1], -m[0][1]},
-        {-m[1][0], m[0][0]},
+        {m[1][1], -m[1][0]},
+        {-m[0][1], m[0][0]},
     };
 }
 
 Matrix::type Matrix::inverse(const type& m)
 {
     auto d = det(m);
-    auto t = transpose(m);
-    auto c = cofactor(t);
+    auto c = cofactor(m);
 
     return
     {
@@ -217,26 +227,4 @@ double norm(const Point& p)
 {
     Point vec_grad = df::first_partial(p);
     return sqrt(vec_grad.x * vec_grad.x + vec_grad.y * vec_grad.y);
-}
-
-double get_step(const Point& p)
-{
-    auto vec_grad = df::first_partial(p);
-    auto mat_gesse = Matrix::gesse(p);
-
-    Matrix::type grad_matrix_hor =
-    {
-        {vec_grad.x, vec_grad.y},
-    };
-
-    Matrix::type grad_matrix_vert =
-    {
-        {vec_grad.x},
-        {vec_grad.y},
-    };
-
-    Matrix::type num = Matrix::multiply(grad_matrix_hor, grad_matrix_vert);
-    Matrix::type denom = Matrix::multiply(grad_matrix_hor, Matrix::multiply(mat_gesse, grad_matrix_vert));
-
-    return num[0][0] / denom [0][0];
 }

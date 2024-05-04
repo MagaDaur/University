@@ -1,5 +1,27 @@
 #include "S_Point.hpp"
 
+double get_step(const Point& p)
+{
+    auto vec_grad = df::first_partial(p);
+    auto mat_gesse = Matrix::gesse(p);
+
+    Matrix::type grad_matrix_hor =
+    {
+        {vec_grad.x, vec_grad.y},
+    };
+
+    Matrix::type grad_matrix_vert =
+    {
+        {vec_grad.x},
+        {vec_grad.y},
+    };
+
+    Matrix::type num = Matrix::multiply(grad_matrix_hor, grad_matrix_vert);
+    Matrix::type denom = Matrix::multiply(grad_matrix_hor, Matrix::multiply(mat_gesse, grad_matrix_vert));
+
+    return num[0][0] / denom [0][0];
+}
+
 int main()
 {
     system("clear");
@@ -8,7 +30,7 @@ int main()
     
     const double eps = LIM_0;
 
-    Point point{ 100, 100 };
+    Point point = BASE_POINT;
 
     while(norm(point) > eps)
     {

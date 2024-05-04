@@ -3,7 +3,6 @@
 Point get_raphson_step(const Point& p)
 {
     auto df = df::first_partial(p);
-    auto step = get_step(p);
 
     Matrix::type grad_matrix_vert =
     {
@@ -13,13 +12,9 @@ Point get_raphson_step(const Point& p)
 
     auto gesse = Matrix::gesse(p);
     auto gesse_inv = Matrix::inverse(gesse);
-    auto test = Matrix::det(gesse);
+
     if(Matrix::det(gesse) < 0)
         gesse_inv = Matrix::Unit;
-
-    for(auto& row : gesse_inv)
-        for(auto& val : row)
-            val *= step;
 
     auto patrial_step = Matrix::multiply(gesse_inv, grad_matrix_vert);
 
@@ -28,7 +23,7 @@ Point get_raphson_step(const Point& p)
 
 int main()
 {
-    Point point = {1, 1};
+    Point point = BASE_POINT;
 
     const double eps = LIM_0;
     int k = 0;
