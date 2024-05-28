@@ -1,4 +1,6 @@
 #include "S_Point.hpp"
+#include <corecrt_math_defines.h>
+#include <string>
 
 Point get_center(const std::vector<Point>& points, const std::vector<Point>::iterator& exclude)
 {
@@ -61,6 +63,11 @@ int main()
         Point refracted_point = center * 2.0 - *worst_point;
         Point extended_point = center + b * (refracted_point - center);
         Point shrinked_point = center + y * (*worst_point - center);
+
+        std::cout << center.x << " " << center.y << std::endl;
+        std::cout << refracted_point.x << " " << refracted_point.y << " " << refracted_point.calc() << std::endl;
+        std::cout << extended_point.x << " " << extended_point.y << " " << extended_point.calc() << std::endl;
+        std::cout << shrinked_point.x << " " << shrinked_point.y << " " << shrinked_point.calc() << std::endl;
 
         if(refracted_point < *worst_point && refracted_point < *best_point)
         {

@@ -4,7 +4,7 @@
 #include <numeric>
 #include <iomanip>
 
-#define LIM_0 sqrtf(__FLT_EPSILON__)
+#define LIM_0 sqrtf(FLT_EPSILON)
 #define BASE_POINT Point(10, 10)
 
 struct Point;
@@ -15,13 +15,13 @@ double f(double x1, double x2)
     //return 4 * x1 * x1 + 4 * x1 * x2 + 6 * x2 * x2 - 17 * x1;
 
     //6
-    //return 2.0 * x1 * x1 - 2.0 * x1 * x2 + 3.0 * x2 * x2 + x1 - 3.0 * x2;
+    return 2.0 * x1 * x1 - 2.0 * x1 * x2 + 3.0 * x2 * x2 + x1 - 3.0 * x2;
 
     //11
     //return x1 * x1 + 2 * x2 * x2 + exp(x1 * x1 + x2 * x2) - x1 + 2 * x2;
 
     //8
-    return x1 * x1 - 2 * x1 * x2 + 6 * x2 * x2 + x1 - x2;
+    //return x1 * x1 - 2 * x1 * x2 + 6 * x2 * x2 + x1 - x2;
 }
 
 namespace Matrix

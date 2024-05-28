@@ -3,3 +3,14 @@
 3-ий курс/ПиОНС/weights_0.csv
 3-ий курс/ПиОНС/weights_2.csv
 3-ий курс/ПиОНС/weights_1.csv
+3-ий курс/ПиОНС/data/Planetoid/Cora/processed/data.pt
+3-ий курс/ПиОНС/data/Planetoid/Cora/processed/pre_filter.pt
+3-ий курс/ПиОНС/data/Planetoid/Cora/processed/pre_transform.pt
+3-ий курс/ПиОНС/data/Planetoid/Cora/raw/ind.cora.allx
+3-ий курс/ПиОНС/data/Planetoid/Cora/raw/ind.cora.ally
+3-ий курс/ПиОНС/data/Planetoid/Cora/raw/ind.cora.graph
+3-ий курс/ПиОНС/data/Planetoid/Cora/raw/ind.cora.test.index
+3-ий курс/ПиОНС/data/Planetoid/Cora/raw/ind.cora.tx
+3-ий курс/ПиОНС/data/Planetoid/Cora/raw/ind.cora.ty
+3-ий курс/ПиОНС/data/Planetoid/Cora/raw/ind.cora.x
+3-ий курс/ПиОНС/data/Planetoid/Cora/raw/ind.cora.y

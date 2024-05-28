@@ -1,4 +1,5 @@
 #include "S_Point.hpp"
+#include <string>
 
 Point get_raphson_step(const Point& p)
 {
