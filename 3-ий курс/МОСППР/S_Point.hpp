@@ -4,7 +4,12 @@
 #include <numeric>
 #include <iomanip>
 
-#define LIM_0 sqrtf(FLT_EPSILON)
+#ifdef __APPLE__
+    #define LIM_0 sqrtf(__FLT_EPSILON__)
+#elif defined _WIN32 || defined _WIN64
+    #define LIM_0 sqrtf(FLT_EPSILON)
+#endif
+
 #define BASE_POINT Point(10, 10)
 
 struct Point;

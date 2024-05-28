@@ -1,5 +1,4 @@
 #include "S_Point.hpp"
-#include <corecrt_math_defines.h>
 #include <string>
 
 Point get_center(const std::vector<Point>& points, const std::vector<Point>::iterator& exclude)
